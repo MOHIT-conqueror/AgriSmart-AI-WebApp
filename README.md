@@ -22,6 +22,8 @@ This project demonstrates:
 * Reusable UI components
 * Multi-page routing and navigation
 * Mobile-first layouts optimized for field use
+* Dark/Light mode support
+* Component library implementation
 
 ---
 
@@ -49,26 +51,67 @@ This project demonstrates:
 
 ---
 
+### Week 3 Deliverables
+
+✅ Figma Wireframes for all major screens
+
+✅ Reusable UI Component Library
+
+✅ Button Component (Primary, Secondary, Outline)
+
+✅ Input Component (Label, Placeholder, Validation)
+
+✅ Modal Component (Open/Close, Escape Key, Focus Trap)
+
+✅ Toast Notifications using react-hot-toast
+
+✅ Loader Component for async states
+
+✅ Clean exports via index.js
+
+✅ Dark/Light Mode Toggle with localStorage persistence
+
+✅ Settings Page Implementation
+
+✅ Responsive Testing across 3 breakpoints (375px, 768px, 1440px)
+
+✅ Full Dark Mode support across all pages
+
+---
+
 ## Project Structure
 
 ```text
 agrismart-ai/
 │
 ├── app/
-│   ├── layout.jsx
-│   ├── page.jsx
+│   ├── layout.js
+│   ├── page.js
+│   ├── about/
+│   │   └── page.jsx
 │   ├── advisory/
 │   │   └── page.jsx
 │   ├── dashboard/
 │   │   └── page.jsx
-│   └── login/
+│   ├── login/
+│   │   └── page.jsx
+│   └── settings/
 │       └── page.jsx
 │
 ├── components/
 │   ├── Navbar.jsx
 │   ├── Hero.jsx
 │   ├── Card.jsx
-│   └── Footer.jsx
+│   ├── Footer.jsx
+│   ├── Providers.jsx
+│   ├── ThemeContext.jsx
+│   └── ui/
+│       ├── Button.jsx
+│       ├── Input.jsx
+│       ├── Modal.jsx
+│       ├── Toast.jsx
+│       ├── Loader.jsx
+│       └── index.js
 │
 ├── public/
 │
@@ -83,6 +126,9 @@ agrismart-ai/
 * React
 * Tailwind CSS
 * Git & GitHub
+* react-hot-toast
+* Lucide React
+* Context API
 * Upcoming: Node.js/Express (Backend)
 * PostgreSQL via Supabase (Database)
 
@@ -115,7 +161,16 @@ Dashboard placeholder prepared for:
 * Regional harvest readiness tracking
 * Expected yield analytics
 * Active farmer metrics
-* Open mill requests
+* Open buyer requests
+
+### Settings Page
+
+New settings page featuring:
+
+* Theme preferences
+* Notification settings
+* Language selection
+* Account controls
 
 ---
 
@@ -123,7 +178,7 @@ Dashboard placeholder prepared for:
 
 Repository Link:
 
-[AgriSmart AI Repository](https://github.com/MOHIT-conqueror/AgriSmart-AI-WebApp?utm_source=chatgpt.com)
+[AgriSmart AI Repository](https://github.com/MOHIT-conqueror/AgriSmart-AI-WebApp)
 
 ---
 
