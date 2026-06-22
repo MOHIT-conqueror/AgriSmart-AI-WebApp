@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Enable dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  min-height: 100%;
+}
