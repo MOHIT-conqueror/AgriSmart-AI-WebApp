@@ -27,7 +27,7 @@ This project demonstrates:
 
 ## Features Implemented
 
-### Week 1 & 2 Deliverables
+###  Deliverables
 
 ✅ Responsive Navigation Bar with integrated routing
 
@@ -46,6 +46,18 @@ This project demonstrates:
 ✅ Login Page (Farmer/Buyer authentication placeholder)
 
 ✅ Fully Mobile-Responsive Design
+ 
+✅ Developed RESTful Backend API using Node.js and Express.
+
+✅ Implemented full CRUD operations (Create, Read, Update, Delete) for Crop Inventory.
+
+✅ Integrated Frontend with Backend using Fetch API with real-time data binding.
+
+✅ Added dynamic loading states and error handling via Toast notifications.
+
+✅ Configured CORS for secure cross-origin resource communication.
+
+✅ Postman/Thunder Client testing collection completed for all endpoints.
 
 ---
 
@@ -83,7 +95,7 @@ agrismart-ai/
 * React
 * Tailwind CSS
 * Git & GitHub
-* Upcoming: Node.js/Express (Backend)
+* Node.js/Express (Backend),Postman (API Testing)
 * PostgreSQL via Supabase (Database)
 
 ---
@@ -129,35 +141,15 @@ Repository Link:
 
 ## Running the Project
 
-Clone the repository:
-
-```bash
-git clone https://github.com/MOHIT-conqueror/AgriSmart-AI-WebApp.git
-```
-
-Navigate into the directory:
-
-```bash
-cd AgriSmart-AI-WebApp
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run development server:
-
-```bash
-npm run dev
-```
-
-Open in browser:
-
-```text
-http://localhost:3000
-```
+1. Clone the repository: `git clone <repo-url>`
+2. **Setup Backend**:
+   - Navigate to the backend folder: `cd backend`
+   - Install dependencies: `npm install`
+   - Start server: `node server.js` (runs on http://localhost:5000)
+3. **Setup Frontend**:
+   - Navigate to the root directory: `cd ..`
+   - Install dependencies: `npm install`
+   - Start app: `npm run dev` (runs on http://localhost:3000)
 
 ---
 
